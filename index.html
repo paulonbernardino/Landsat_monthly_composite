@@ -875,6 +875,7 @@
 <p>Paulo N Bernardino (paulo.nbernardino@gmail.com)</p>
 <p><a href="https://ees.kuleuven.be/fnl/staff/index.html?intranet=u0115271">Division Forest, Nature and Landscape, KU Leuven</a></p>
 <p><a href="https://www.wur.nl/en/Persons/Paulo-P-Paulo-Negri-Bernardino-MSc.htm">Laboratory of Geo-information Science and Remote Sensing, Wageningen UR</a></p>
+<h2 id="getting-started">Getting started</h2>
 <p>Set your working directory to the folder with the Landsat raster files. Next, the code below will install/load the required packages.</p>
 <div class="row">
 <button class="source R toggle btn btn-xs btn-primary">
@@ -903,6 +904,7 @@ lc8<-stack(path)
 ## Setting masked values as NA instead of zero
 lc8[lc8<=0] <- NA</code></pre>
 </div>
+<h2 id="creating-the-monthly-composites">Creating the monthly composites</h2>
 <p>Making monthly composites, using the max per-pixel value among the available months.</p>
 <div class="row">
 <button class="source R toggle btn btn-xs btn-primary">
